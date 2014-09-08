@@ -77,8 +77,8 @@ list = yes
 
 ... for a 64-bit CentOS 5.10 target.  This layout allows for multiple vendors
 and multiple distributions to be targetted simply by updating a symlink (or for
-multiple rsync repos to contain different symlinks to a shared storage location
-- although rsync may need to be configured to follow out-of-repo symlinks).
+multiple rsync repos to contain different symlinks to a shared storage
+location - although rsync may need to be configured to follow out-of-repo symlinks).
 
 `rpminstall` should, in theory, work with any RPM-based distribution, but it has
 only been tested with CentOS and Red Hat 4.x and 5.x.  The 6.x distributions
